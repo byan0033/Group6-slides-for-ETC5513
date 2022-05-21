@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Air pollution analysis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="BINGYU YANG, Phuong Trinh, Chatpisut Makornkhan" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Air pollution analysis
+]
+.subtitle[
+## Assignment4 Group6
+]
+.author[
+### BINGYU YANG, Phuong Trinh, Chatpisut Makornkhan
+]
+.institute[
+### Faculty of Business &amp; Economics
+]
+
+---
+
+
+
+
+
+
+
+
+class: center, middle
+&lt;img src="figs/welcome-5.gif" width="100%" style="display: block; margin: auto;" /&gt;
+---
+class: left, middle
+
+# Contents
+
+## Report Introduction
+
+## Section 1 - Trends Exploration
+
+## Section 2 - Category Comparison
+
+## Section 3 - Highest and Lowest Air Pollution 
+
+## Conclusion
+
+
+---
+class: left, middle
+
+# Introduction
+
+.blue[ In this research project, we aim to explore and analyze numbers and trends of human's death caused by various air pollution.]
+
+
+&lt;img src="figs/images.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+.tiny[&lt;span&gt;Photo by &lt;a href="https://online.regiscollege.edu/blog/outdoor-air-pollution/"&gt; Regis College&lt;/a&gt;]
+
+---
+class: left, top
+## Section 1 - Trends Exploration
+
+.blue[.bold[Research Questions]] 
+
+.content-box-soft[ 
+- Q1:Top four countries with the highest average number of deaths due to air pollution since 1990 to 2019.]
+
+.content-box-soft[ 
+- Q2:Is air pollution in these four countries improving until 2019? ]
+
+.content-box-soft[ 
+- Q3:What are the trends in the number of deaths caused by these two pollutants?]
+
+
+---
+
+### Q1: Top four countries with the highest average number of deaths due to air pollution since 1990 to 2019.
+
+
+&lt;img src="figs/Screenshot_1.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+The four countries with the highest average number of deaths (per 100,000) due to air pollution are Solomon Islands, Afghanistan, Central African Republic and Somalia.
+---
+
+### Q2: Is air pollution in these four countries improving until 2019?
+
+&lt;img src="figs/Screenshot_2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: left, middle
+
+# Q3
+
+.green[.bold[How about the outdoor air pollution for these countries?]] 
+
+- Ozone, an atmospheric gas, is often called smog when at ground level. It is created when pollutants emitted by cars, power plants, industrial boilers, refineries, and other sources chemically react in the presence of sunlight.
+
+- Particulate matter is created by vehicle and industrial emissions from fossil fuel combustion. Cigarette smoke, and burning organic matter, such as wildfires, all contain PM.
+
+---
+class: left, top
+
+### Q3: What are the trends in the number of deaths caused by these two pollutants?
+
+&lt;img src="figs/Screenshot_3.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: left, middle
+# Section summary
+
+.blue[.bold[Solomon Islands, Afghanistan, Central African Republic and Somalia have seen major improvements in total air pollution, especially indoor air pollution. However, there has been a small increase in the number of deaths caused by particulate matter pollution.]]
+
+---
+class: left, top
+# Section 2 - Categorical comparison between Vietnam and New Zealand
+## Research question
+
+
+
+
+
+.content-box-soft[ 
+- Q1: Which type of pollution is the most common attribute of death over years in each of the countries?
+]
+
+.content-box-soft[ 
+- Q2: How did the death rates corresponding to different types of pollution change over the years and how different the trends are in both countries?
+]
+
+
+---
+class: left, top
+
+## Exploratory analysis
+
+### .bold[Research question 1]
+
+.red[Which type of pollution is the most common attribute of death over years in each of the countries?]
+
+&lt;img src="figs/air-quality-alert-4x3-1-980x735.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+class: left, top
+
+### .bold[New Zealand]
+
+
+
+&lt;table&gt;
+&lt;caption&gt;Death rate related to different risk factors in New Zealand&lt;/caption&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Entity &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Risk factor &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean rate &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; New Zealand &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Air_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 7.11 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; New Zealand &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ambient_ozone_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.20 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; New Zealand &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ambient_particulate_matter_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6.77 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; New Zealand &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Household_air_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.14 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+.pull-top[
+Air pollution contributed most to the death rates in New Zealand with 7.11%]
+
+
+
+
+---
+class: left, top
+
+### .bold[Vietnam]
+
+
+&lt;table&gt;
+&lt;caption&gt;Death rate related to different risk factors in Vietnam&lt;/caption&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Entity &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Risk factor &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean rate &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Vietnam &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Air_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 131.61 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Vietnam &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ambient_ozone_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.74 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Vietnam &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Ambient_particulate_matter_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 38.99 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Vietnam &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Household_air_pollution &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 91.56 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+.pull-middle[
+Air pollution is the largest cause of pollution in Vietnam, which accounts for 131.61%]
+
+
+---
+
+class: left, middle
+
+.content-box-duke-green[ 
+
+- Air pollution is one of the leading risk factors for deaths across the world.
+  
+- In 2017, air pollution contributed for approximately 12 percent of global deaths.
+  
+- The burden of air pollution tends to be greater among low and middle income countries.
+]
+
+.pull-right1[
+![](https://i.pinimg.com/originals/8e/4d/be/8e4dbe2aecba57d88b8837492699826a.gif)
+
+]
+
+
+
+---
+class: centre, middle
+
+### .bold[Research question 2]
+
+.red[How did the death rates corresponding to different types of pollution change over the years and how different the trends are in each country?]
+
+.left[
+&lt;img src="figs/industrial-air-pollution-control-solution-500x500.jpg" width="40%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+.right[
+&lt;img src="figs/1421339792058.jpg" width="40%" style="display: block; margin: auto 0 auto auto;" /&gt;
+]
+---
+
+class: center, middle
+
+### .bold[New Zealand]
+
+![](Group6_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+
+
+---
+class: center, middle
+
+### .bold[Vietnam]
+
+
+![](Group6_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+
+---
+class: left, top
+
+&lt;img src="figs/depositphotos_63569313-stock-illustration-summary-word-written-by-3d.jpg" width="40%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+.content-box-duke-green[
+- Air pollution is at the top of the leading risk factors for deaths in both countries. However, in recent decades the death rates from total air pollution has declined.
+
+- Death rates associated with pollution in Vietnam is higher than in New Zealand for all types of pollution.
+]
+
+---
+
+class: left, top
+# Section 3 - Highest and Lowest Air Pollution
+## Research Questions
+
+.content-box-soft[ 
+* Q1: Which country has the highest number of Air Pollution caused casualties? 
+* And what is its trend across the year pertaining to their cause of deaths severity?
+]
+
+.content-box-soft[ 
+* Q2: What is the 4 lowest polluted countries? 
+* Regarding the comparison between them, what are possible reasons for these significantly low result?
+]
+
+---
+class: left, top
+
+## Analysis
+## Research Question 1 - Graphic
+
+.content-box-soft[ 
+* Solomon Islands appears to be the most pollution-led casualties, given their significant amount of deaths over any other countries. 
+]
+
+&lt;img src="figs/Magic_Figure1.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+.content-box-soft[ 
+* With further exploration, Death from general Air Pollution is the most severe, similarly with Solid Fuels-led pollution. 
+]
+
+---
+class: left, top
+
+## Research Question 1 - Research and Analysis
+
+.content-box-soft[ 
+* With heavily and ever-changing climate change risk, over-deforestation problem and enormous plastic waste issues, Solomon Islands is even more prone to bigger issues 
+]
+
+
+&lt;img src="figs/Magick_pic.pjpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+class: left, top
+
+## Research Question 2 - Graphic
+
+.content-box-soft[ 
+* What are lowest 4 polluted-led cause of death countries?
+]
+
+&lt;img src="figs/Magic_Table1.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+.content-box-soft[ 
+* What we can learn from them? 
+]
+
+---
+class: left, top
+
+## Research Question 2 - Research and Analysis
+
+
+&lt;img src="figs/Magic_Table2.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+.content-box-soft[ 
+* Based on each country reliance on type of energy consumption, their ability to suppress various air pollution rates.
+]
+
+---
+class: centre, middle
+
+# Conclusion...
+
+&lt;img src="figs/betterworld.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+
+
+&lt;img src="figs/thx4w-6.gif" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
